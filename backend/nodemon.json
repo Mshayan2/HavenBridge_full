@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "server.js",
+    "config",
+    "controllers",
+    "middlewares",
+    "models",
+    "routes",
+    "utils"
+  ],
+  "ext": "js,mjs,cjs,json",
+  "ignore": [
+    "uploads/**",
+    "tmp_response.json",
+    "node_modules/**",
+    "../HavenBridge/dist/**",
+    "../HavenBridge/node_modules/**"
+  ],
+  "delay": "250"
+}
