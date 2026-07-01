@@ -18,12 +18,12 @@ export async function autoSeedIfEmpty() {
     if (userCount === 0) {
       user = await User.create({
         name: "Test User",
-        email: "jabir2k1@gmail.com",
-        password: "TestPassword123!",
+        email: "shayan1236y@gmail.com",
+        password: "Merhankhan@1",
         emailVerified: true, // Skip verification for dev
         role: "customer",
       });
-      console.log("[seed] Created test user: jabir2k1@gmail.com / TestPassword123!");
+      console.log("[seed] Created test user: shayan1236y@gmail.com / Merhankhan@1");
     } else {
       user = await User.findOne();
     }
